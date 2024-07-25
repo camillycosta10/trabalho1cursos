@@ -1,0 +1,115 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #dad7b0;
+    color: #dad7b0;
+}
+
+header {
+    background: #333;
+    color: #dad7b0;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #dad7b0;
+    text-decoration: none;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.navbar a {
+    color: rgb(228, 36, 84);
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar a:hover {
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+main {
+    padding: 1rem;
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+
+.curso {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #eb0e0e;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curso img.curso-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.curso h3 {
+    margin-top: 1rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #ff1e00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.button:hover, .button:focus {
+    background: #ce320b;
+}
+
+#sobre, #contato {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
